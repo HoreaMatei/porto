@@ -1,0 +1,153 @@
+.menu {
+  position: relative;
+
+  width: 100px;
+  text-align: center;
+
+  height: 100px;
+  margin-top: -19px;
+  z-index: 100;
+}
+
+.menu2 {
+  position: relative;
+  height: 100px;
+
+  width: 99vw;
+  text-align: center;
+  background: var(--orange);
+  margin-top: -19px;
+  z-index: 100;
+}
+
+.dropdown {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  position: absolute;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+  text-align: center;
+
+  background: var(--orange);
+  box-shadow: 0 7px 7px #44434383;
+  height: 99vh;
+  color: var(--pink);
+  transition: 10s;
+  z-index: 100;
+}
+
+.dropdownButton {
+  margin-left: -14px;
+}
+.dropdownButton:active {
+  border-style: outset;
+  transition: none;
+}
+.dropdownButton:focus {
+  transition: none;
+  border-style: outset;
+}
+.dropdownButton,
+.dropdownButton2 {
+  height: 100%;
+  width: 100px;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+
+  border-style: none;
+  color: var(--pink);
+}
+
+.dropdownButton2 {
+  color: var(--pink);
+}
+
+.dropdownButton:focus {
+  outline: none;
+  border: none;
+}
+.dropdownButton2:focus {
+  outline: none;
+}
+
+li {
+  font-size: 20px;
+  height: 35px;
+  width: 80%;
+  text-decoration: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 70px;
+}
+
+.link {
+  width: 100%;
+  color: var(--primary);
+  font-size: 87px;
+}
+.doi {
+  border-bottom: none;
+}
+
+.link:hover {
+  color: rgba(255, 236, 221, 0.548);
+}
+.link:active {
+  transform: scale(0.9);
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 4px;
+  background-color: var(--orange);
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.bar1C,
+.bar2C,
+.bar3C {
+  width: 35px;
+  height: 5px;
+  background-color: var(--pink);
+  transition: 0.4s;
+}
+/* Rotate first bar */
+.bar1C {
+  transform: translate(0, 1px) rotate(-45deg);
+
+  position: relative;
+}
+
+/* Fade out the second bar */
+.bar2C {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.bar3C {
+  transform: translate(0, -10px) rotate(45deg);
+}
+
+@media (max-width: 1000px) {
+  .dropdownButton2 {
+    margin-left: -90vw;
+  }
+}

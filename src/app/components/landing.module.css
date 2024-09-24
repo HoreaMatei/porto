@@ -1,0 +1,80 @@
+.landingContent {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 95vw;
+  margin: auto;
+  margin-top: 25%;
+}
+
+.p1 {
+  width: 360px;
+  font-size: 25px;
+}
+
+.contact {
+  width: 200px;
+  font-size: 20px;
+  border: 1px solid var(--orange);
+  background: var(--pink);
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--orange);
+  height: 70px;
+}
+
+.contact:hover {
+  background: var(--orange);
+
+  color: var(--pink);
+}
+
+.contact:active {
+  transform: scale(0.9);
+  outline: none;
+}
+
+.base {
+  width: 370px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.baseP {
+  width: 200px;
+  font-size: 18px;
+}
+@media (max-width: 800px) {
+  .landingContent {
+    flex-direction: column;
+    width: 90%;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 14%;
+  }
+
+  .base {
+    justify-content: center;
+  }
+}
+@media (max-width: 670px) {
+  .contact {
+    font-size: 3vw;
+  }
+
+  .p1 {
+    font-size: 3.5vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .contact {
+    width: 160px;
+  }
+}

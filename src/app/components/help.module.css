@@ -1,0 +1,27 @@
+.main {
+  height: 40vh;
+  width: 40vw;
+  margin: auto;
+}
+
+.help {
+  font-size: 90px;
+}
+
+.li {
+  height: 100px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid rgba(249, 54, 0, 0.356);
+}
+
+.liHeader {
+  font-size: 40px;
+  margin-top: 10px;
+}
+
+.liElement {
+  width: 300px;
+  margin-top: 20px;
+}

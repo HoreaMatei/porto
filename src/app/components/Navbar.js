@@ -50,7 +50,13 @@ const Navbar = () => {
         <div className={styles.dropDown}>
           <Dropdown />
         </div>
-        <div className={styles.git}>git</div>
+        <a
+          target="_blank"
+          href="https://github.com/HoreaMatei"
+          className={styles.git}
+        >
+          git
+        </a>
       </div>
     </div>
   );

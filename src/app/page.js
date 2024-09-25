@@ -1,12 +1,12 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Navbar from "./components/Navbar";
-import Title from "./components/Title";
+
 import Landing from "./components/Landing";
 import WorkWme from "./components/WorkWme";
-import Help from "./components/Help";
+import Contacts from "./components/Contacts";
+
 import Portofolio from "./components/Portofolio";
-import Skills from "./components/Skills";
 
 export default function Home() {
   return (
@@ -18,6 +18,7 @@ export default function Home() {
         <WorkWme />
 
         <Portofolio />
+        <Contacts />
       </div>
     </main>
   );

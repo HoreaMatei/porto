@@ -12,12 +12,12 @@ const Landing = () => {
   return (
     <div>
       <Title />
-      <div className={`${styles.landingContent} ${roboto.className}`}>
+      <div id="work" className={`${styles.landingContent} ${roboto.className}`}>
         <div className={styles.p1}>
           I build clean and modern websites that help you with your business
         </div>
 
-        <Link href="#" className={styles.contact}>
+        <Link href="/#contact_div" className={styles.contact}>
           Contact me
         </Link>
         <div className={styles.base}>

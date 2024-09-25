@@ -65,7 +65,7 @@ export default function Dropdown() {
             <Link
               style={{ textDecoration: "none" }}
               className="link doi"
-              href="#"
+              href="/#work"
             >
               About
             </Link>
@@ -84,7 +84,7 @@ export default function Dropdown() {
             <Link
               style={{ textDecoration: "none" }}
               className="link"
-              href="/ok"
+              href="/#contact_div"
             >
               Contact
             </Link>

@@ -14,10 +14,20 @@ const Portofolio = () => {
           <div className={styles.videoDesc}>
             Lord of the Rings inspired card game
           </div>
-          <video className={styles.video1} autoPlay loop muted>
-            <source src="./cardVideo.mp4" type="video/mp4" />
-          </video>
-          <Link href="#" className={styles.code}>
+          <Link
+            target="_blank"
+            href="https://card-game-p7p9-nu5jqo3el-horeas-projects-58aee5d2.vercel.app/"
+            className={styles.link}
+          >
+            <video className={styles.video1} autoPlay loop muted>
+              <source src="./cardVideo.mp4" type="video/mp4" />
+            </video>
+          </Link>
+          <Link
+            target="_blank"
+            href="https://github.com/HoreaMatei/card-game"
+            className={styles.code}
+          >
             View Code
           </Link>
         </div>
@@ -26,12 +36,19 @@ const Portofolio = () => {
       <RevealComp y={-20} duration="600ms" threshold={0.5}>
         <div className={styles.projectDiv2}>
           <div className={styles.siteName}>Flowershop website</div>
-          <img className={styles.food1} alt="img" src="./dandelion2.png" />
-          <Link href="#" className={styles.link}>
-            {" "}
-            <img className={styles.food2} alt="img" src="./dandelion1.png" />
-          </Link>
-          <Link href="#" className={styles.code}>
+          <Link
+            target="_blank"
+            href="https://dandelion-tgqi-c73unik2j-horeas-projects-58aee5d2.vercel.app/"
+            className={styles.link}
+          >
+            <img className={styles.food1} alt="img" src="./dandelion2.png" />
+          </Link>{" "}
+          <img className={styles.food2} alt="img" src="./dandelion1.png" />
+          <Link
+            target="_blank"
+            href="https://github.com/HoreaMatei/dandelion"
+            className={styles.code}
+          >
             View Code
           </Link>
         </div>
@@ -40,12 +57,21 @@ const Portofolio = () => {
       <RevealComp y={-20} duration="600ms" threshold={0.5}>
         <div className={styles.projectDiv1}>
           <div className={styles.siteName}>Recipe finder website</div>
-          <img className={styles.food1} alt="img" src="./food1.png" />
-          <Link href="#" className={styles.link}>
+          <Link
+            target="_blank"
+            href="https://recipe-finder-lemon-xi.vercel.app/"
+            className={styles.link}
+          >
             {" "}
-            <img className={styles.food2} alt="img" src="./food2.png" />
+            <img className={styles.food1} alt="img" src="./food1.png" />
           </Link>
-          <Link href="#" className={styles.code12}>
+          <img className={styles.food2} alt="img" src="./food2.png" />
+
+          <Link
+            target="_blank"
+            href="https://github.com/HoreaMatei/finalTest"
+            className={styles.code12}
+          >
             View Code
           </Link>
         </div>

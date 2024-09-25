@@ -72,9 +72,10 @@ export default function Dropdown() {
           </li>
           <li>
             <Link
+              target="_blank"
               style={{ textDecoration: "none" }}
               className="link"
-              href="/ok"
+              href="https://github.com/HoreaMatei"
             >
               Git
             </Link>

@@ -87,7 +87,7 @@
   color: var(--orange);
   text-decoration: none;
   position: absolute;
-  bottom: 18px;
+  bottom: 12px;
   font-size: 21px;
   z-index: 1000;
 }
@@ -100,7 +100,9 @@
   font-size: 21px;
   z-index: 1000;
 }
-
+.code12:hover {
+  scale: 0.9;
+}
 .code:hover {
   scale: 0.9;
 }

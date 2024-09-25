@@ -59,7 +59,7 @@ const Portofolio = () => {
           <div className={styles.siteName}>Recipe finder website</div>
           <Link
             target="_blank"
-            href="https://recipe-finder-lemon-xi.vercel.app/"
+            href="https://final-test-ivory.vercel.app/"
             className={styles.link}
           >
             {" "}

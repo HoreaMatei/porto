@@ -27,7 +27,9 @@
   margin: -20px 53% auto;
 }
 .food1,
-.food2 {
+.food2,
+.dandelion1,
+.dandelion2 {
   width: 30vw;
 
   height: 36vh;
@@ -37,10 +39,14 @@
   cursor: pointer;
 }
 
-.food1 {
+.food1,
+.dandelion1 {
   position: absolute;
 }
 
+.dandelion1:hover {
+  opacity: 0;
+}
 .food1:hover {
   opacity: 0;
 }
@@ -137,13 +143,20 @@
 
   .video1,
   .food1,
-  .food2 {
+  .food2,
+  .dandelion1,
+  .dandelion2 {
     width: 80vw;
     height: 50vh;
   }
   .food1:hover {
     opacity: 0;
   }
+
+  .dandelion1:hover {
+    opacity: 0;
+  }
+
   .projectDiv1 {
     padding-bottom: 50px;
   }
@@ -152,11 +165,28 @@
 @media (max-width: 550px) {
   .video1,
   .food1,
-  .food2 {
+  .food2,
+  .dandelion1,
+  .dandelion2 {
     width: 93vw;
+  }
+
+  .video1 {
     height: 50vh;
+  }
+
+  .dandelion1,
+  .dandelion2 {
+    margin-bottom: 50px;
   }
   .porto {
     margin-top: 40px;
+  }
+
+  .food1,
+  .food2,
+  .dandelion1,
+  .dandelion2 {
+    height: 52vw;
   }
 }

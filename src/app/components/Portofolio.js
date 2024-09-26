@@ -41,9 +41,13 @@ const Portofolio = () => {
             href="https://dandelion-tgqi-c73unik2j-horeas-projects-58aee5d2.vercel.app/"
             className={styles.link}
           >
-            <img className={styles.food1} alt="img" src="./dandelion2.png" />
+            <img
+              className={styles.dandelion1}
+              alt="img"
+              src="./dandelion2.png"
+            />
           </Link>{" "}
-          <img className={styles.food2} alt="img" src="./dandelion1.png" />
+          <img className={styles.dandelion2} alt="img" src="./dandelion1.png" />
           <Link
             target="_blank"
             href="https://github.com/HoreaMatei/dandelion"

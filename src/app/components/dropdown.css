@@ -13,7 +13,7 @@
   position: relative;
   height: 100px;
 
-  width: 99vw;
+  width: 100vw;
   text-align: center;
   background: var(--orange);
   margin-top: -19px;
@@ -41,7 +41,7 @@
 }
 
 .dropdownButton {
-  margin-left: -14px;
+  margin-left: 6px;
 }
 .dropdownButton:active {
   border-style: outset;

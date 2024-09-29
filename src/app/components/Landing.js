@@ -17,9 +17,15 @@ const Landing = () => {
           I build clean and modern websites that help you with your business
         </div>
 
-        <Link href="/#contact_div" className={styles.contact}>
-          Contact me
-        </Link>
+        <a
+          href="./Resume.pdf"
+          alt="alt text"
+          target="_blank"
+          rel="noopener noreferrer"
+          className={styles.contact}
+        >
+          Resume/CV
+        </a>
         <div className={styles.base}>
           <p className={styles.baseP}>Based in Romania, available worldwide</p>
         </div>

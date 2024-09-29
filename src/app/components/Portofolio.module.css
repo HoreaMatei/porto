@@ -169,10 +169,11 @@
   .dandelion1,
   .dandelion2 {
     width: 93vw;
+    height: 52vw;
   }
 
-  .video1 {
-    height: 50vh;
+  .porto {
+    scroll-behavior: smooth;
   }
 
   .dandelion1,
@@ -181,12 +182,5 @@
   }
   .porto {
     margin-top: 40px;
-  }
-
-  .food1,
-  .food2,
-  .dandelion1,
-  .dandelion2 {
-    height: 52vw;
   }
 }

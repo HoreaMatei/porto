@@ -16,7 +16,7 @@ const Portofolio = () => {
           </div>
           <Link
             target="_blank"
-            href="https://card-game-p7p9.vercel.app/"
+            href="https://lotr-card-game.vercel.app/"
             className={styles.link}
           >
             <video className={styles.video1} autoPlay loop muted>
@@ -38,7 +38,7 @@ const Portofolio = () => {
           <div className={styles.siteName}>Flowershop website</div>
           <Link
             target="_blank"
-            href="https://dandelion-tgqi-c73unik2j-horeas-projects-58aee5d2.vercel.app/"
+            href="https://dandelionn.vercel.app/"
             className={styles.link}
           >
             <img
@@ -63,7 +63,7 @@ const Portofolio = () => {
           <div className={styles.siteName}>Recipe finder website</div>
           <Link
             target="_blank"
-            href="https://final-test-ivory.vercel.app/"
+            href="https://recipee-finder-app.vercel.app/"
             className={styles.link}
           >
             {" "}

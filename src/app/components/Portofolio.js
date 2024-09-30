@@ -16,7 +16,7 @@ const Portofolio = () => {
           </div>
           <Link
             target="_blank"
-            href="https://card-game-p7p9-nu5jqo3el-horeas-projects-58aee5d2.vercel.app/"
+            href="https://card-game-p7p9.vercel.app/"
             className={styles.link}
           >
             <video className={styles.video1} autoPlay loop muted>

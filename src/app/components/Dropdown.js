@@ -81,13 +81,14 @@ export default function Dropdown() {
             </Link>
           </li>
           <li>
-            <Link
+            <a
               style={{ textDecoration: "none" }}
               className="link"
-              href="/#contact_div"
+              href="./Resume.pdf"
+              target="_blank"
             >
-              Contact
-            </Link>
+              Resume
+            </a>
           </li>
         </div>
       )}

@@ -55,7 +55,7 @@ const Navbar = () => {
           href="https://github.com/HoreaMatei"
           className={styles.git}
         >
-          git
+          gitHub
         </a>
       </div>
     </div>

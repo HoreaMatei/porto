@@ -8,8 +8,7 @@ const Portofolio = () => {
   return (
     <div id="porto" className={styles.main22}>
       <div className={styles.porto}>Projects</div>
-
-      <RevealComp y={-20} duration="600ms" threshold={0.5}>
+      <div className={styles.relative}>
         <div className={styles.projectDivVideo}>
           <div className={styles.videoDesc}>
             Lord of the Rings inspired card game
@@ -31,9 +30,9 @@ const Portofolio = () => {
             View Code
           </Link>
         </div>
-      </RevealComp>
+      </div>
 
-      <RevealComp y={-20} duration="600ms" threshold={0.5}>
+      <div className={styles.relative}>
         <div className={styles.projectDiv2}>
           <div className={styles.siteName}>Flowershop website</div>
           <Link
@@ -56,9 +55,9 @@ const Portofolio = () => {
             View Code
           </Link>
         </div>
-      </RevealComp>
+      </div>
 
-      <RevealComp y={-20} duration="600ms" threshold={0.5}>
+      <div className={styles.relative}>
         <div className={styles.projectDiv1}>
           <div className={styles.siteName}>Recipe finder website</div>
           <Link
@@ -79,7 +78,7 @@ const Portofolio = () => {
             View Code
           </Link>
         </div>
-      </RevealComp>
+      </div>
     </div>
   );
 };

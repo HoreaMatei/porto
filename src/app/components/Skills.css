@@ -1,0 +1,33 @@
+.skills-div {
+  margin-top: 24vh;
+}
+
+.skills-p {
+  font-size: 50px;
+  margin-top: 0;
+}
+
+.skill-img {
+  width: 50px;
+}
+
+.skills-subdiv {
+  display: flex;
+  width: 45vw;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 500px) {
+  .skills-p {
+    font-size: 30px;
+  }
+
+  .skills-subdiv {
+    width: 80vw;
+  }
+}

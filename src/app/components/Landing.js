@@ -3,6 +3,7 @@ import React from "react";
 import styles from "./landing.module.css";
 import { Roboto } from "next/font/google";
 import Link from "next/link";
+import Skills from "./Skills";
 
 const roboto = Roboto({
   weight: "400",
@@ -12,6 +13,7 @@ const Landing = () => {
   return (
     <div>
       <Title />
+      <Skills />
       <div id="work" className={`${styles.landingContent} ${roboto.className}`}>
         <div className={styles.p1}>
           I build clean and modern websites that help you with your business

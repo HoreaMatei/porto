@@ -77,7 +77,7 @@ export default function Dropdown() {
               className="link"
               href="https://github.com/HoreaMatei"
             >
-              Git
+              GitHub
             </Link>
           </li>
           <li>

@@ -4,7 +4,7 @@
   justify-content: space-between;
   width: 95vw;
   margin: auto;
-  margin-top: 25%;
+  margin-top: 10%;
 }
 
 .p1 {
@@ -70,6 +70,7 @@
 
   .p1 {
     font-size: 3.5vw;
+    width: 90%;
   }
 }
 

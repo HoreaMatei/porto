@@ -15,8 +15,6 @@ export default function Home() {
       <div className={styles.content}>
         <Landing />
 
-        <WorkWme />
-
         <Portofolio />
         <Contacts />
       </div>

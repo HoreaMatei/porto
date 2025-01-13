@@ -61,15 +61,7 @@ export default function Dropdown() {
               Projects
             </Link>
           </li>
-          <li>
-            <Link
-              style={{ textDecoration: "none" }}
-              className="link doi"
-              href="/#work"
-            >
-              About
-            </Link>
-          </li>
+
           <li>
             <Link
               target="_blank"

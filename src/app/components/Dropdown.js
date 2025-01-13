@@ -40,7 +40,7 @@ export default function Dropdown() {
 
   return (
     <div className={isOpen ? "menu2" : "menu"}>
-      <Button
+      <button
         className={isOpen ? "dropdownButton2" : "dropdownButton"}
         onClick={buttonClicked}
       >
@@ -49,7 +49,7 @@ export default function Dropdown() {
           <div className={isOpen ? "bar2C" : "bar2"}></div>
           <div className={isOpen ? "bar3C" : "bar3"}></div>
         </div>
-      </Button>
+      </button>
       {isOpen && (
         <div className="dropdown">
           <li>

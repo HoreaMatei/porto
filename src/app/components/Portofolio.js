@@ -15,16 +15,16 @@ const Portofolio = () => {
           </div>
           <Link
             target="_blank"
-            href="https://lotr-card-game.vercel.app/"
+            href="https://lotr-frontend.onrender.com/"
             className={styles.link}
           >
             <video className={styles.video1} autoPlay loop muted>
-              <source src="./cardVideo.mp4" type="video/mp4" />
+              <source src="./cardVid3.mp4" type="video/mp4" />
             </video>
           </Link>
           <Link
             target="_blank"
-            href="https://github.com/HoreaMatei/card-game"
+            href="https://github.com/HoreaMatei/lord"
             className={styles.code}
           >
             View Code

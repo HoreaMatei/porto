@@ -66,7 +66,7 @@ const Portofolio = () => {
             className={styles.link}
           >
             {" "}
-            <img className={styles.food1} alt="img" src="./food1.png" />
+            <img className={styles.food1} alt="img" src="./eshop.png" />
           </Link>
           <img className={styles.food2} alt="img" src="./food2.png" />
 

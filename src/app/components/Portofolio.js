@@ -59,20 +59,20 @@ const Portofolio = () => {
 
       <div className={styles.relative}>
         <div className={styles.projectDiv1}>
-          <div className={styles.siteName}>Recipe finder website</div>
+          <div className={styles.siteName}>Ecommerce app</div>
           <Link
             target="_blank"
-            href="https://recipee-finder-app.vercel.app/"
+            href="https://e-shop-p84j.onrender.com/auth/login"
             className={styles.link}
           >
             {" "}
             <img className={styles.food1} alt="img" src="./eshop.png" />
           </Link>
-          <img className={styles.food2} alt="img" src="./food2.png" />
+          <img className={styles.food2} alt="img" src="./eshop2.png" />
 
           <Link
             target="_blank"
-            href="https://github.com/HoreaMatei/finalTest"
+            href="https://github.com/HoreaMatei/eShop"
             className={styles.code12}
           >
             View Code

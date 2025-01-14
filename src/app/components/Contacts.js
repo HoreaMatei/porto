@@ -5,7 +5,7 @@ const Contacts = () => {
   return (
     <div id="contact_div" className={styles.contact_div}>
       <div className={styles.contact_subdiv}>
-        <p className={styles.mail}>mail: mhorea19@gmail.com</p>
+        <p className={styles.mail}>Email: mhorea19@gmail.com</p>
 
         <div>
           <a>

@@ -33,7 +33,7 @@ const Portofolio = () => {
       </div>
 
       <div className={styles.relative}>
-        <div className={styles.projectDiv2}>
+        <div className={styles.projectDiv1}>
           <div className={styles.siteName}>Flowershop website</div>
           <Link
             target="_blank"
@@ -58,7 +58,7 @@ const Portofolio = () => {
       </div>
 
       <div className={styles.relative}>
-        <div className={styles.projectDiv1}>
+        <div className={styles.projectDiv2}>
           <div className={styles.siteName}>Ecommerce app</div>
           <Link
             target="_blank"

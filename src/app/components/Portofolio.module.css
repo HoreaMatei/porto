@@ -170,7 +170,7 @@
 }
 
 .description_p {
-  font-size: 25px;
+  font-size: 1.2rem;
   text-align: left;
 }
 .code12 {
@@ -190,6 +190,12 @@
 }
 
 @media (max-width: 1000px) {
+  .relative,
+  .relative1 {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
   .porto {
     position: static;
     font-size: 15vw;
@@ -202,9 +208,15 @@
     width: 95vw;
     margin: auto;
     justify-content: center;
-    background: var(--white);
+    background: transparent;
 
     border-radius: 20px;
+    position: relative;
+    margin-left: 0;
+  }
+
+  .description_p {
+    font-size: 12px;
   }
 
   .projectDivVideo {
@@ -215,6 +227,7 @@
   .projectDivVideo {
     margin-bottom: 30px;
     height: fit-content;
+    margin-left: 0;
   }
 
   .video1,
@@ -224,6 +237,7 @@
   .dandelion2 {
     width: 80vw;
     height: 50vh;
+    margin: 0;
   }
   .food1:hover {
     opacity: 0;
@@ -239,6 +253,13 @@
 }
 
 @media (max-width: 550px) {
+  .introduction {
+    width: 60vw;
+  }
+  .relative {
+    width: 100vw;
+    margin: auto;
+  }
   .video1,
   .food1,
   .food2,
@@ -246,6 +267,7 @@
   .dandelion2 {
     width: 93vw;
     height: 52vw;
+    margin: 0;
   }
 
   .porto {

@@ -50,10 +50,10 @@
 
 @media (max-width: 800px) {
   .title {
-    font-size: 16vw;
+    font-size: 14vw;
   }
 
   .rotating {
-    width: 80px;
+    width: 30px;
   }
 }

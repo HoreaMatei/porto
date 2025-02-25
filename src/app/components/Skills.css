@@ -23,11 +23,18 @@
 }
 
 @media (max-width: 500px) {
+  p {
+    font-size: 12px;
+  }
   .skills-p {
     font-size: 30px;
   }
 
   .skills-subdiv {
     width: 80vw;
+  }
+
+  .skill-img {
+    width: 30px;
   }
 }

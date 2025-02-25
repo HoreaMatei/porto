@@ -44,7 +44,7 @@ const Navbar = () => {
           <Link href="/" className={`${styles.name} ${roboto.className}`}>
             Horea Matei
           </Link>
-          <div className={styles.webDev}> WEB DEVELOPER </div>
+          <div className={styles.webDev}> FULLSTACK DEVELOPER </div>
         </div>
 
         <div className={styles.dropDown}>

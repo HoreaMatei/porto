@@ -20,6 +20,11 @@ const Skills = () => {
           <img className="skill-img" src="html-icon.png" />
           <p>HTML</p>
         </div>
+
+        <div className="skills-and-name">
+          <img className="skill-img" src="tailwind.png" />
+          <p>TailwindCSS</p>
+        </div>
         <div className="skills-and-name">
           <img className="skill-img" src="js-icon.png" />
           <p>Javascript</p>

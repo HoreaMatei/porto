@@ -1,5 +1,5 @@
 .skills-div {
-  margin-top: 24vh;
+  margin-top: 10vh;
 }
 
 .skills-p {
@@ -13,7 +13,7 @@
 
 .skills-subdiv {
   display: flex;
-  width: 45vw;
+  width: 50vw;
   margin: auto;
   align-items: center;
   justify-content: center;

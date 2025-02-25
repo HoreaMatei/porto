@@ -6,6 +6,16 @@
   margin: auto;
   margin-top: 10%;
 }
+.span {
+  font-weight: bold;
+}
+
+.introduction {
+  font-size: 22px;
+  width: 400px;
+  margin: auto;
+  margin-top: 3%;
+}
 
 .p1 {
   width: 360px;
@@ -13,8 +23,8 @@
 }
 
 .contact {
-  width: 200px;
-  font-size: 20px;
+  width: 130px;
+  font-size: 18px;
   border: 1px solid var(--orange);
   background: var(--pink);
   border-radius: 50px;
@@ -24,7 +34,9 @@
   cursor: pointer;
   text-decoration: none;
   color: var(--orange);
-  height: 70px;
+  height: 44px;
+  margin: auto;
+  margin-top: 5%;
 }
 
 .contact:hover {

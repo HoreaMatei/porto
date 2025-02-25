@@ -28,9 +28,7 @@
 .webDev {
   position: absolute;
   font-size: 40px;
-
-  cursor: pointer;
-
+  cursor: auto;
   height: 50px;
   background: var(--pink);
 }
@@ -39,7 +37,7 @@
   position: absolute;
 
   font-size: 40px;
-  cursor: pointer;
+
   height: 50px;
   text-decoration: none;
   color: var(--orange);

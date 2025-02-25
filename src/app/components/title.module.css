@@ -1,5 +1,5 @@
 .title {
-  font-size: 180px;
+  font-size: 80px;
 
   width: fit-content;
   margin: auto;
@@ -40,8 +40,11 @@
   -ms-animation: rotating 10s linear infinite;
   -o-animation: rotating 10s linear infinite;
   animation: rotating 10s linear infinite;
-  margin-left: 10px;
-  margin-right: -50px;
+  /* margin-left: 10px; */
+  margin-right: -20px;
+
+  height: 30px;
+
   z-index: -1;
 }
 

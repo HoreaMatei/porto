@@ -36,3 +36,8 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--orange);
 }
+
+h4 {
+  font-weight: lighter;
+  background-color: aqua;
+}

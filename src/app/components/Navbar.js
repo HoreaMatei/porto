@@ -3,8 +3,7 @@ import styles from "./Navbar.module.css";
 import Link from "next/link";
 import { Roboto } from "next/font/google";
 import Dropdown from "./Dropdown";
-
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 
 const roboto = Roboto({
   weight: "400",
@@ -13,30 +12,33 @@ const roboto = Roboto({
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true);
-
-  const [lastScrollY, setLastScrollY] = useState(0);
-
-  const controlNavbar = () => {
-    if (window.scrollY > lastScrollY) {
-      // if scroll down hide the navbar
-      setIsOpen(false);
-    } else {
-      // if scroll up show the navbar
-      setIsOpen(true);
-    }
-
-    // remember current page location to use in the next move
-    setLastScrollY(window.scrollY);
-  };
+  const lastScrollY = useRef(0); // Using ref instead of state to prevent excessive re-renders
 
   useEffect(() => {
-    window.addEventListener("scroll", controlNavbar);
+    let ticking = false; // Prevents excessive function calls
 
-    // cleanup function
-    return () => {
-      window.removeEventListener("scroll", controlNavbar);
+    const handleScroll = () => {
+      if (!ticking) {
+        requestAnimationFrame(() => {
+          if (window.scrollY > lastScrollY.current) {
+            setIsOpen(false);
+          } else {
+            setIsOpen(true);
+          }
+          lastScrollY.current = window.scrollY;
+          ticking = false;
+        });
+        ticking = true;
+      }
     };
-  }, [lastScrollY]);
+
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className={styles.Navbar}>
       <div className={isOpen ? styles.nav : styles.nav2}>

@@ -46,10 +46,12 @@
 .dropdownButton:active {
   border-style: outset;
   transition: none;
+  border: none;
 }
 .dropdownButton:focus {
   transition: none;
   border-style: outset;
+  border: none;
 }
 .dropdownButton,
 .dropdownButton2 {
@@ -148,7 +150,9 @@ li {
 
 @media (max-width: 1000px) {
   .dropdownButton2 {
-    margin-left: -90vw;
+    margin-left: 0;
+    text-align: left;
+    margin-right: 48vw;
   }
 }
 

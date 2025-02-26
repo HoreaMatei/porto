@@ -253,12 +253,28 @@
 }
 
 @media (max-width: 550px) {
-  .introduction {
-    width: 60vw;
+  .description_p {
+    margin: auto;
+    width: 90%;
+    text-align: center;
   }
-  .relative {
+
+  .videoDesc {
+    text-align: center;
+  }
+  .description {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .relative,
+  .relative1 {
     width: 100vw;
     margin: auto;
+    margin-top: 5%;
   }
   .video1,
   .food1,
@@ -280,5 +296,10 @@
   }
   .porto {
     margin-top: 40px;
+  }
+  .projectDiv1 {
+    margin: auto;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }

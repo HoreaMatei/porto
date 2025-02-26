@@ -44,7 +44,7 @@ const Navbar = () => {
       <div className={isOpen ? styles.nav : styles.nav2}>
         <div>
           <Link href="/" className={`${styles.name} ${roboto.className}`}>
-            Horea Matei
+            mhorea19@gmail.com
           </Link>
           <div className={styles.webDev}> FULLSTACK DEVELOPER </div>
         </div>

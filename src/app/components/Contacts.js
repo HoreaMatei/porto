@@ -8,7 +8,7 @@ const Contacts = () => {
         <p className={styles.mail}>Email: mhorea19@gmail.com</p>
 
         <div>
-          <a>
+          <a href="https://www.linkedin.com/in/horea-matei-9722b022b">
             <img className={styles.contact_img} src="./linkedin.png" />
           </a>
           <a href="https://github.com/HoreaMatei">

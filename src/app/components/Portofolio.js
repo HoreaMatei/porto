@@ -155,7 +155,7 @@ const Portofolio = () => {
               <div className={styles.projectDiv1}>
                 <Link
                   target="_blank"
-                  href="https://eshop-2222.onrender.com/"
+                  href="https://eshop-2222.onrender.com"
                   className={styles.link}
                 >
                   {" "}
@@ -188,7 +188,7 @@ const Portofolio = () => {
                 <div className={styles.links_div}>
                   <Link
                     target="_blank"
-                    href="https://github.com/HoreaMatei/image-generator"
+                    href="https://github.com/HoreaMatei/eShop"
                     className={styles.code}
                   >
                     View Code
@@ -196,7 +196,7 @@ const Portofolio = () => {
 
                   <Link
                     target="_blank"
-                    href="https://image-generator-3h9j.vercel.app"
+                    href="https://eshop-2222.onrender.com"
                     className={styles.site_link}
                   >
                     Visit Website
@@ -310,7 +310,7 @@ const Portofolio = () => {
                 <div className={styles.links_div}>
                   <Link
                     target="_blank"
-                    href="https://github.com/HoreaMatei/lord"
+                    href="https://github.com/HoreaMatei/dandelion"
                     className={styles.code}
                   >
                     View Code
@@ -318,7 +318,7 @@ const Portofolio = () => {
 
                   <Link
                     target="_blank"
-                    href="https://github.com/HoreaMatei/lord"
+                    href="https://dandelionn.vercel.app/"
                     className={styles.site_link}
                   >
                     Visit Website

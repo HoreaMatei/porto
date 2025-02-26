@@ -149,14 +149,14 @@ li {
 }
 
 @media (max-width: 1000px) {
-  .dropdownButton2 {
-    margin-left: 0;
-    text-align: left;
-    margin-right: 48vw;
-  }
 }
 
 @media (max-width: 700px) {
+  .dropdownButton2 {
+    margin-left: 0;
+    text-align: center;
+    margin-right: 100%;
+  }
   .link {
     font-size: 55px;
   }

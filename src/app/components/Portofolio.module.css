@@ -253,6 +253,11 @@
 }
 
 @media (max-width: 550px) {
+  .links_div {
+    margin-top: 30px;
+    position: absolute;
+    transform: translate(-50%, 0%);
+  }
   .description_p {
     margin: auto;
     width: 90%;
@@ -260,21 +265,27 @@
   }
 
   .videoDesc {
+    margin-top: 0;
     text-align: center;
+    font-size: 20px;
   }
   .description {
     width: 90%;
     margin: auto;
+    margin-top: 0;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
+    height: 50vh;
   }
   .relative,
   .relative1 {
     width: 100vw;
     margin: auto;
     margin-top: 5%;
+    height: fit-content;
+    gap: 0;
   }
   .video1,
   .food1,
@@ -284,6 +295,14 @@
     width: 93vw;
     height: 52vw;
     margin: 0;
+  }
+
+  .code,
+  .site_link {
+    height: 20px;
+    padding-top: 8px;
+    font-size: 14px;
+    min-width: 90px;
   }
 
   .porto {

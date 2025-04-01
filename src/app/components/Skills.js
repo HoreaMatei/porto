@@ -22,6 +22,10 @@ const Skills = () => {
         </div>
 
         <div className="skills-and-name">
+          <img className="skill-img" src="ts.png" />
+          <p>Typescript</p>
+        </div>
+        <div className="skills-and-name">
           <img className="skill-img" src="express-icon.png" />
           <p>ExpressJS</p>
         </div>

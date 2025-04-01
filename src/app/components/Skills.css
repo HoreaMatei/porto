@@ -1,5 +1,14 @@
 .skills-div {
   margin-top: 10vh;
+  position: relative;
+  transform: translateY(100%);
+  opacity: 0;
+  transition: transform 0.7s ease-in-out, opacity 0.7s ease-in-out;
+}
+
+.show {
+  transform: translateY(0);
+  opacity: 1;
 }
 
 .skills-p {

@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import "./Skills.css";
 
 const Skills = () => {
+  const [visible, setVisible] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setVisible(true);
+    }, 1000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
-    <div className="skills-div">
+    <div className={`${"skills-div "} ${visible ? "show" : ""} `}>
       <p className="skills-p">Skills:</p>
       <div className="skills-subdiv">
         <div className="skills-and-name">

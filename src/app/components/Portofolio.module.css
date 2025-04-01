@@ -138,7 +138,7 @@
   border: 1px solid var(--orange);
   padding: 7px;
   border-radius: 5px;
-  height: 30px;
+  height: 28px;
 }
 
 .links_div {
@@ -162,7 +162,7 @@
   border: 1px solid var(--orange);
   padding: 7px;
   border-radius: 5px;
-  height: 30px;
+  height: 28px;
 }
 
 .site_link:hover {
@@ -299,8 +299,8 @@
 
   .code,
   .site_link {
-    height: 20px;
-    padding-top: 8px;
+    height: 18px;
+    padding-top: 10px;
     font-size: 14px;
     min-width: 90px;
   }

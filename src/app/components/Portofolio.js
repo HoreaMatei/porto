@@ -20,6 +20,140 @@ const Portofolio = () => {
       <div className={styles.porto}>Projects</div>
       <div id="porto" className={`${styles.main22} ${roboto.className}`}>
         {/* <div className={styles.porto}>Projects</div> */}
+
+        <RevealOnScroll>
+          <div className={styles.relative}>
+            <RevealOnScroll>
+              <div className={styles.projectDiv1}>
+                <Link
+                  target="_blank"
+                  href="https://layout-project-one.vercel.app"
+                  className={styles.link}
+                >
+                  {" "}
+                  <img
+                    className={styles.food1}
+                    alt="img"
+                    src="./digital1.png"
+                  />
+                </Link>
+                <img className={styles.food2} alt="img" src="./digital2.png" />
+              </div>
+            </RevealOnScroll>
+            <div className={styles.description}>
+              <RevealOnScroll>
+                <div>
+                  <div className={styles.videoDesc}>
+                    Digital Creative Studio
+                  </div>
+                  <p>Frontend App </p>
+                </div>
+              </RevealOnScroll>
+              <RevealOnScroll>
+                <p className={styles.description_p}>
+                  Digital Creative Studio is a frontend project showcasing
+                  dynamic and complex animations. Built with{" "}
+                  <span className={styles.span}>
+                    React, TypeScript, Tailwind CSS, Framer Motion
+                  </span>
+                  , and <span className={styles.span}>React Router</span>, it
+                  delivers a seamless and visually engaging experience while
+                  highlighting the developer's skills in creating sophisticated
+                  UI interactions.
+                </p>
+              </RevealOnScroll>
+
+              <RevealOnScroll>
+                {" "}
+                <div className={styles.links_div}>
+                  <Link
+                    target="_blank"
+                    href="https://github.com/HoreaMatei/layout-project"
+                    className={styles.code}
+                  >
+                    View Code
+                  </Link>
+
+                  <Link
+                    target="_blank"
+                    href="https://layout-project-one.vercel.app"
+                    className={styles.site_link}
+                  >
+                    Visit Website
+                  </Link>
+                </div>
+              </RevealOnScroll>
+            </div>
+          </div>
+        </RevealOnScroll>
+
+        <RevealOnScroll>
+          <div className={styles.relative1}>
+            <RevealOnScroll>
+              <div className={styles.projectDiv1}>
+                <Link
+                  target="_blank"
+                  href="https://background-remover-virid-kappa.vercel.app"
+                  className={styles.link}
+                >
+                  {" "}
+                  <img
+                    className={styles.food1}
+                    alt="img"
+                    src="./bg-remover.png"
+                  />
+                </Link>
+                <img
+                  className={styles.food2}
+                  alt="img"
+                  src="./bg-remover-auth.png"
+                />
+              </div>
+            </RevealOnScroll>
+            <div className={styles.description}>
+              <RevealOnScroll>
+                <div>
+                  <div className={styles.videoDesc}>AI Background Remover</div>
+                  <p>FullStack Web App</p>
+                </div>
+              </RevealOnScroll>
+              <RevealOnScroll>
+                <p className={styles.description_p}>
+                  AI-driven Background Remover built with{" "}
+                  <span className={styles.span}>React.js, Node.js</span> and
+                  <span className={styles.span}>Express</span>. Utilizing
+                  <span className={styles.span}>Better-SQLite3</span> for the
+                  database, <span className={styles.span}>TailwindCSS </span>{" "}
+                  for styling and the
+                  <span className={styles.span}>Replicate API</span> for
+                  processing images.With secure authentication, users can manage
+                  their processed images with ease.
+                </p>
+              </RevealOnScroll>
+
+              <RevealOnScroll>
+                <div className={styles.links_div}>
+                  <Link
+                    target="_blank"
+                    href="https://github.com/HoreaMatei/bg_project"
+                    className={styles.code}
+                  >
+                    View Code
+                  </Link>
+
+                  <Link
+                    target="_blank"
+                    href="https://background-remover-virid-kappa.vercel.app"
+                    className={styles.site_link}
+                  >
+                    Visit Website
+                  </Link>
+                </div>
+              </RevealOnScroll>
+            </div>
+          </div>
+        </RevealOnScroll>
+
         <RevealOnScroll>
           <div className={styles.relative}>
             <RevealOnScroll>
@@ -89,72 +223,6 @@ const Portofolio = () => {
               <div className={styles.projectDiv1}>
                 <Link
                   target="_blank"
-                  href="https://background-remover-virid-kappa.vercel.app"
-                  className={styles.link}
-                >
-                  {" "}
-                  <img
-                    className={styles.food1}
-                    alt="img"
-                    src="./bg-remover.png"
-                  />
-                </Link>
-                <img
-                  className={styles.food2}
-                  alt="img"
-                  src="./bg-remover-auth.png"
-                />
-              </div>
-            </RevealOnScroll>
-            <div className={styles.description}>
-              <RevealOnScroll>
-                <div>
-                  <div className={styles.videoDesc}>AI Background Remover</div>
-                  <p>FullStack Web App</p>
-                </div>
-              </RevealOnScroll>
-              <RevealOnScroll>
-                <p className={styles.description_p}>
-                  AI-driven Background Remover built with{" "}
-                  <span className={styles.span}>React.js, Node.js</span> and
-                  <span className={styles.span}>Express</span>. Utilizing
-                  <span className={styles.span}>Better-SQLite3</span> for the
-                  database, <span className={styles.span}>TailwindCSS </span>{" "}
-                  for styling and the
-                  <span className={styles.span}>Replicate API</span> for
-                  processing images.With secure authentication, users can manage
-                  their processed images with ease.
-                </p>
-              </RevealOnScroll>
-
-              <RevealOnScroll>
-                <div className={styles.links_div}>
-                  <Link
-                    target="_blank"
-                    href="https://github.com/HoreaMatei/bg_project"
-                    className={styles.code}
-                  >
-                    View Code
-                  </Link>
-
-                  <Link
-                    target="_blank"
-                    href="https://background-remover-virid-kappa.vercel.app"
-                    className={styles.site_link}
-                  >
-                    Visit Website
-                  </Link>
-                </div>
-              </RevealOnScroll>
-            </div>
-          </div>
-        </RevealOnScroll>
-        <RevealOnScroll>
-          <div className={styles.relative}>
-            <RevealOnScroll>
-              <div className={styles.projectDiv1}>
-                <Link
-                  target="_blank"
                   href="https://e-shop-w6l4.vercel.app"
                   className={styles.link}
                 >
@@ -208,7 +276,7 @@ const Portofolio = () => {
         </RevealOnScroll>
 
         <RevealOnScroll>
-          <div className={styles.relative1}>
+          <div className={styles.relative}>
             <RevealOnScroll>
               <div className={styles.projectDivVideo}>
                 <Link
@@ -264,7 +332,7 @@ const Portofolio = () => {
           </div>
         </RevealOnScroll>
         <RevealOnScroll>
-          <div className={styles.relative}>
+          <div className={styles.relative1}>
             <RevealOnScroll>
               <div className={styles.projectDiv1}>
                 <Link

@@ -217,7 +217,7 @@ const Portofolio = () => {
             </div>
           </div>
         </RevealOnScroll>
-        <RevealOnScroll>
+        {/* <RevealOnScroll>
           <div className={styles.relative1}>
             <RevealOnScroll>
               <div className={styles.projectDiv1}>
@@ -273,10 +273,10 @@ const Portofolio = () => {
               </RevealOnScroll>
             </div>
           </div>
-        </RevealOnScroll>
+        </RevealOnScroll> */}
 
         <RevealOnScroll>
-          <div className={styles.relative}>
+          <div className={styles.relative1}>
             <RevealOnScroll>
               <div className={styles.projectDivVideo}>
                 <Link
@@ -332,7 +332,7 @@ const Portofolio = () => {
           </div>
         </RevealOnScroll>
         <RevealOnScroll>
-          <div className={styles.relative1}>
+          <div className={styles.relative}>
             <RevealOnScroll>
               <div className={styles.projectDiv1}>
                 <Link
